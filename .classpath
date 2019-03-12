@@ -12,8 +12,5 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="con" path="org.eclipse.buildship.core.gradleclasspathcontainer"/>
-	<classpathentry kind="lib" path="C:/Users/priyrai/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-core/3.0.2/e0135107f8001967938a12feff37636cb2ca18d8/cucumber-core-3.0.2.jar" sourcepath="C:/Users/priyrai/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-core/3.0.2/f66d52171dc6ba723bec355a35cd998aeed3d630/cucumber-core-3.0.2-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/priyrai/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-junit/3.0.2/bc0bf60bedc0680185aa80b024666986895181ac/cucumber-junit-3.0.2.jar" sourcepath="C:/Users/priyrai/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-junit/3.0.2/f564ae7b112e7deaa9fa80cd663e054e274243cf/cucumber-junit-3.0.2-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/priyrai/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-java/3.0.2/6b1790c541528f8b3a47cb7f87aa8125c3139ef0/cucumber-java-3.0.2.jar" sourcepath="C:/Users/priyrai/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-java/3.0.2/71e25f1875e3425c7ac21f88e0f5a00b4dc33a35/cucumber-java-3.0.2-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

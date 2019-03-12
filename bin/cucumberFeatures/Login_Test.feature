@@ -10,7 +10,7 @@ Feature:
 			And User enters UserName and Password
 			Then Message displayed Login Successfully        
 				
-  #Successful LogOut
+  #Successful LogOut from application
 	@DEM-5 @DEM-2
 	Scenario: Successful LogOut
 		When User LogOut from the Application
