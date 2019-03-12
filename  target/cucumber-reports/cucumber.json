@@ -1,0 +1,133 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Login Action",
+        "description": "\t\tSuccessful Login with Valid Credentials",
+        "id": ";login-action",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12827700262,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "LoginTests.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2709980264,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Navigate to LogIn Page",
+            "match": {
+              "location": "LoginTests.user_navigate_to_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3517876392,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters UserName and Password",
+            "match": {
+              "location": "LoginTests.user_enters_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 610549,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Message displayed Login Successfully",
+            "match": {
+              "location": "LoginTests.message_displayed_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DEM-3"
+          },
+          {
+            "name": "@DEM-1"
+          },
+          {
+            "name": "@DEM-2"
+          },
+          {
+            "name": "@Demo1"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Successful LogOut",
+        "description": "",
+        "id": ";successful-logout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4413221081,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User LogOut from the Application",
+            "match": {
+              "location": "LoginTests.user_logout_from_the_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 913369,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Message displayed LogOut Successfully",
+            "match": {
+              "location": "LoginTests.message_displayed_logout_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DEM-3"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "src/test/resources/cucumberFeatures/Login_Test.feature",
+    "tags": [
+      {
+        "name": "@DEM-3",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
